@@ -30,14 +30,8 @@ export default function AlunoForm() {
         icon: "success",
         draggable: true
       });
-      setOpen(true);
-  
-
-
       
-    }
-
-
+      }
   }
 
   return (
