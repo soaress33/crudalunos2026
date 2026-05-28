@@ -30,15 +30,14 @@ export default function AlunoForm() {
         icon: "success",
         draggable: true
       });
+      router.refresh();
       
       }
   }
 
   return (
     <form ref={formRef} action={handleAction}>
-      <div className="font-sans bg-gray-400 flex flex-col  items-center justify-items-center   ">
-        
-        <div className="bg-white w-full  mt-4 flex flex-col p-5 py-6  rounded-3xl">
+        <div className="bg-white   mt-4 flex flex-col p-5 py-6  rounded-lg">
           <div className="ml-6 ">
             <h1 className="text-3xl text-black">Cadastro de Alunos</h1>
             <p className="text-gray-400">
@@ -142,7 +141,7 @@ export default function AlunoForm() {
           </div>
 
         </div>
-      </div>
+ 
     </form>
   );
 }
